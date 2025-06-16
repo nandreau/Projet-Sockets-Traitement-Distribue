@@ -11,7 +11,7 @@ export JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64
 
 ### Il vous faudra aussi : 
 Python ≥ 3.8  
-Java ≥ 8	
+Java ≥ 17	
 Apache Kafka  
 Apache Spark
 Docker et Docker compose

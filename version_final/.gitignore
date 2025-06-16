@@ -1,0 +1,21 @@
+# Fichiers générés par Spark / alertes
+output/*
+
+# Logs du générateur Kafka
+logs/*
+
+# Certificats et clés sensibles (TLS)
+certs/*
+!certs/kafka_server_jaas.conf.template
+
+# Fichiers temporaires système
+*.log
+*.tmp
+.DS_Store
+
+# Éviter les fichiers Python inutiles
+__pycache__/
+*.py[cod]
+
+# Fichiers de l’environnement
+.env
